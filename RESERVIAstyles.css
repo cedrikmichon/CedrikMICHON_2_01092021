@@ -532,12 +532,24 @@ footer {
             .filtre_dog ,
             .filtre_fam {
                 margin: 10px 30px;
-                width: 250px;
+                width: auto;
+                display: inline-flex;
             }
 
             .filtre_rom {
                 margin: 10px 30px 10px 114px;
-                width: 250px;
+                width: auto;
+                display: inline-flex;
+            }
+
+            .filtre_eco:hover ,
+            .filtre_fam:hover ,
+            .filtre_rom:hover ,
+            .filtre_dog:hover {
+                width: auto;
+                background-color: rgb(214, 231, 255);
+                cursor: pointer;
+                border-radius: 25px;
             }
 
             #hebergement {
